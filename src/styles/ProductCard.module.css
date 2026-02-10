@@ -1,3 +1,17 @@
 /* TODO: Style the product card container */
+.card {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.75rem 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(174, 98, 122, 0.08);
+}
 
-/* TODO: Add special styling for out-of-stock products */
+.outOfStockClass {
+  background: #bd7a98; 
+  opacity: 0.9;
+}
